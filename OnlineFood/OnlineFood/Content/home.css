@@ -1,0 +1,119 @@
+﻿.Image, .Image {
+    overflow: hidden
+}
+
+.Image {
+    font-family: 'Open Sans',sans-serif;
+    text-align: center;
+    position: relative;
+    transition: all .5s ease 0s;
+    border: thin solid #FF0000;
+}
+
+    .Image:hover {
+        transform: scale(1.1);
+    }
+
+    .Image a {
+        display: block
+    }
+
+    .Image img {
+        width: 100%;
+        height: auto;
+        transition: all .5s ease 0s
+    }
+
+.text-block {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background-color: black;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+ 
+}
+
+.Image {
+    padding: 12px 12px 15px;
+    transition: all .5s ease 0s;
+    margin: 15px;
+}
+
+tr {
+    height: 100px;
+}
+
+.button {
+    width: 114px;
+    margin-top: 13px;
+    height: 40px;
+    background-color: #559732;
+    border-radius: 14px;
+} 
+
+
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+}
+
+.mydatagrid {
+    width: 80%;
+    border: solid 2px black;
+    min-width: 80%;
+    margin-left:10%;
+}
+
+.header {
+    background-color: #000;
+    font-family: Arial;
+    color: White;
+    height: 25px;
+    text-align: center;
+    font-size: 16px;
+}
+
+.rows {
+    background-color: #fff;
+    font-family: Arial;
+    font-size: 14px;
+    color: #000;
+    min-height: 25px;
+    text-align: left;
+}
+
+
+
+.mydatagrid span {
+    background-color: #fff;
+    color: #000;
+    padding: 5px 5px 5px 5px;
+}
+
+.pager {
+    background-color: #5badff;
+    font-family: Arial;
+    color: White;
+    height: 30px;
+    text-align: left;
+}
+
+.mydatagrid td {
+    padding: 5px;
+    
+}
+
+.mydatagrid th {
+    padding: 5px;
+}
+
+
+
+
+@media only screen and (max-width:990px) {
+    .Image {
+        margin-bottom: 30px
+    }
+}
